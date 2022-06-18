@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=hea, initial-scale=1.0">
-    <title>Document</title>
+    <title>Britlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html">Britlex</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contacts</a></li>
+            <a href="./index.html"class="logo link-none">Britlex</a>
+            <ul class="list-none">
+                <li><a href="./index.html" class="nav-list link-none">Home</a></li>
+                <li><a href="#" class="nav-list link-none">Skills</a></li>
+                <li><a href="#" class="nav-list link-none">About Us</a></li>
+                <li><a href="#" class="nav-list link-none">Pricing</a></li>
+                <li><a href="#" class="nav-list link-none">Contacts</a></li>
             </ul>
         </nav>
-        <button type="button">
+        <button type="button" class="nav-button">
             Let’s Talk
         </button>
     </header>
@@ -109,7 +113,7 @@
                     languages
                 </li> 
             </ul>
-            <img src="./img/05.png" alt="">
+            <img src="./img/05.png" alt="people are climbing on money mountain">
 
         </section>        
 
@@ -119,7 +123,7 @@
             <h2>Pricing</h2>
             <ul>
                 <li>
-                    <img src="./img/06.png" alt="" width="426">
+                    <img src="./img/06.png" alt="girl is working on computer" width="426">
                     <h3>Self-study online course</h3>
                     <p>Start learning English online in live classes
                     with qualified EC teachers and students
@@ -128,7 +132,7 @@
                     <span> per month</span>
                 </li>
                 <li>
-                    <img src="./img/07.png" alt="" width="426">
+                    <img src="./img/07.png" alt="people are learning" width="426">
                     <h3>Live online classes</h3>
                     <p>Interactive group classes with expert
                     teachers. Free 7-day trial</p>
@@ -136,7 +140,7 @@
                     <span> per month</span>
                 </li>
                 <li>
-                    <img src="./img/08.png" alt="" width="426">
+                    <img src="./img/08.png" alt="woman is listening online class" width="426">
                     <h3>Personal Tuition</h3>
                     <p>Online one-to-one English tutoring – enjoy
                     our first session for only $1</p>
@@ -148,22 +152,27 @@
         <!-- Contact Us -->
         <section>
             <h2>Contact Us</h2>
-            <img src="./img/contact.png" alt="" width="425">
+            <img src="./img/contact.png" alt="child is throwing paper plane" width="425">
             <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips
             and free resources</p>
 
-            <button type="button">
-                Subscribe
-            </button>
+            <!-- форма вводу -->
+            <form action="#">
+                <input type="email" name="email"/>
+                <button type="button">Subscribe</button>
+            </form>
 
-
+            <!-- <button type="button">Subscribe</button> -->
         </section>
-        <footer>
-
-        </footer>
-
-
-
     </main>
+    <!-- footer -->
+    <footer>
+        <a href="./index.html">Britlex</a>
+        <ul>
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+        </ul>
+    </footer>
 </body>
 </html>
